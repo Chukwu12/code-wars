@@ -5,11 +5,7 @@
 // 15 -> 7 (because odd numbers below 15 are [1, 3, 5, 7, 9, 11, 13])
 
 function oddCount(n){
-    let count = 0;
-       // Loop through numbers from 1 to the given number
-      for(let i = 1; i < n; i += 2){
-        count++; 
-      }
-       return count
+    return Math.floor(n / 2);
+    
+  }
       
-    }
