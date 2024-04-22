@@ -23,8 +23,3 @@ Keep in mind that while these solutions have passed the tests provided by CodeWa
 If you have any questions or feedback about the solutions or the repository in general, feel free to reach out to me through GitHub or via email.
 
 
-<p align="left" >
-    <a href="LINK TO: WHEN CLICKED">
-      <img src="https://github.r2v.ch/codewars?user=Chukwu12" />
-    </a>
-</p>
