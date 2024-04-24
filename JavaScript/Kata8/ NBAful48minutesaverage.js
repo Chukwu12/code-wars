@@ -16,12 +16,15 @@ function pointsPer48(ppg, mpg) {
     // Check if ppg and mpg are both non-zero
      if(ppg !== 0 && mpg !== 0) {
        // Calculate points per minute
-       ppg = ppg / mpg;
+       const ppm = ppg / mpg;
+       
         // Extrapolate points per 48 minutes
-       const totalPpg = ppg *  48;
+       const pointsPer48Minutes = ppm *  48;
+       
          // Round to the nearest tenth
-       return Math.round(totalPpg * 10) / 10;
+       return Math.round(pointsPer48Minutes * 10) / 10;
      } else {
+       // Return 0 if either ppg or mpg is 0
        return 0;
      }
    }
