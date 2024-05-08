@@ -14,9 +14,13 @@
 // Inputs and the expected output will never exceed the signed 32-bit integer limit (2^31 - 1
 
 function sumStr(a,b) {
-    if(a == 0 || b == 0) {
-      return '0'
-    } else {
-    return (Number(a) + Number(b)).toString();
-    }
+  if (a === "" && b === "") {
+      return "0";
+  } else if (a === "") {
+      return b;
+  } else if (b === "") {
+      return a;
+  } else {
+      return (Number(a) + Number(b)).toString();
   }
+}
