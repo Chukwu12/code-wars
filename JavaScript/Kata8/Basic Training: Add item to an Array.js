@@ -6,6 +6,8 @@
 // var websites = [];
 
 // add the value "codewars" to the already defined websites array
-var websites = [];
+// Add "codewars" to the existing websites array
 websites.push("codewars");
-console.log(websites);
+
+// After this code executes, the websites array should be ["codewars"]
+console.log(websites); 
